@@ -1,0 +1,25 @@
+This is a Basic Point Of Sales System, I have created this in Visual Basic 6
+The source code is fully commented so anyone can modify it and improve if wish to do so.
+
+Some of the technique implemented here are :
+
+1.) Embedding executable files in a Visual Basic Forms, the splash and the about me shows this technique.
+2.) Using PNG for images to make Visual Basic 6 Application interface with a modern look. This is done
+using an OCX file (LaVolpeAlphaImg2.ocx). Note if you are testing the application from code, make sure you properly register the ocx file.
+3.) Using text file as a database for the application
+4.) Using Windows API to retrieve the name of the currently logged in user, this was used in the login forms. 
+
+The PASSWORD I used in the application was "ict-tr3a1" without a quote, you can change this in the code if you wish to.
+
+NOTES : 
+
+   - Although you can modify the code in a simple text editor, the code is developed in Visual Basic 6 IDE so it is also advisable that you edit this in VB6 editor.
+   - The code will reference OCX file and 2 executable files, you can get this by downloading the installer package and copying the files ( intro.exe, aboutme.exe, LoVelpeAlphaImg2.ocx, LoVelpeAlphaImg2.oca) and droping it into where all you put the source code, of course you can replace the 2 exe files with your custom executable that will be used for about me and splash screen.
+   - The LoVelpeAlphaImg2.ocx is used to support Alpha Image transparency and PNG images in VB 6 forms.
+
+I notice that the .frm file is not vieweable in a browser so you can't read the code, so much better to download
+the source code as a zip file and open it in VB6 IDE
+
+To download all the source code in a zip file go here : https://github.com/danreb/Basic-POS/archives/master
+Make sure you download the installer also here : https://github.com/downloads/danreb/Basic-POS/Basic-POS.zip
+You can copy the OCX and the 2 exe file in the program files where you install the Basic-POS Installer and drop it along with the source code, this will avoid errors when you open the file in VB editor. From then you can modify it according to your needs.
